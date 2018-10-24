@@ -92,3 +92,9 @@ yarn-error.log
 *.xcscmblueprint
 xcuserdata
 
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
