@@ -6,7 +6,7 @@ const Weather = () => {
     return (
         <View style = {styles.weatherContainer}>
             <View style = {styles.headerContainer}>
-                <MaterialCommunityIcons size={48} name='weather-sunny' color={#fff} />
+                <MaterialCommunityIcons size={48} name='weather-sunny' color={'#fff'} />
                 <Text style={styles.tempText}>Temperature˚</Text>
             </View>
             <View style = {styles.bodyContainer}>
