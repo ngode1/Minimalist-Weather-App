@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, View, Animated } from 'react-native';
 
 import { DangerZone } from 'expo';
-const { Lottie } = DangerZone;
 
 import { API_KEY } from './utils/WeatherAPIKey';
 

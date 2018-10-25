@@ -1,11 +1,11 @@
-export const WeatherConditions = {
+export const weatherConditions = {
     Rain: {
         color: '#005BEA',
         title: 'Raining',
         subtitle: 'Get a cup of coffee',
         icon: 'weather-rainy'
     },
-    Clear:{
+    Clear: {
         color: '#f7b733',
         title: 'So Sunny',
         subtitle: 'It is hurting my eyes',
@@ -23,10 +23,11 @@ export const WeatherConditions = {
         subtitle: 'Everywhere',
         icon: 'weather-cloudy'
     },
+
     Snow: {
         color: '#00d2ff',
         title: 'Snow',
-        subtitle: 'Do you want to build a snowman?',
+        subtitle: 'Get out and build a snowman for me',
         icon: 'weather-snowy'
     },
     Drizzle: {
