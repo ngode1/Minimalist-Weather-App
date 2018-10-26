@@ -30,11 +30,11 @@ export default class App extends React.Component {
 
   fetchWeahter(lat, lon) {
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${API_KEY}&units=metric`
+      `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&APPID=${API_KEY}&units=imperial`
     )
       .then(res => res.json())
       .then(json => {
-        // console.log(json);
+        //console.log(json);
         this.setState({
           temperature: json.main.temp,
           weatherCondition: json.weather[0].main,
